@@ -28,6 +28,6 @@ public class BankAccount implements Valuable {
 
     @Override
     public double getValue() {
-        return 0;
+        return this.balance;
     }
 }
