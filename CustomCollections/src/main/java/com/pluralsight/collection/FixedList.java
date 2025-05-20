@@ -19,7 +19,7 @@ public class FixedList<T> {
         } else {
             this.items.add(item);
         }
-    }
+     }
 
     public List<T> getItems() {
         return this.items;
